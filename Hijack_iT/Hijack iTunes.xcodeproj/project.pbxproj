@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAppleScriptBuildPhase section */
+		032C1A0309C46E8300093B59 /* AppleScript */ = {
+			isa = PBXAppleScriptBuildPhase;
+			buildActionMask = 2147483647;
+			contextName = "";
+			files = (
+				032C1A0409C46E8300093B59 /* Hijack iT.applescript in AppleScript */,
+			);
+			isSharedContext = 0;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXAppleScriptBuildPhase section */
+
+/* Begin PBXBuildFile section */
+		032C1A0409C46E8300093B59 /* Hijack iT.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = DA206CF3015C4E8B03C91932 /* Hijack iT.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		032C1A0609C46E8300093B59 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		032C1A0709C46E8300093B59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		032C1A0809C46E8300093B59 /* Hijack-iT.icns in Resources */ = {isa = PBXBuildFile; fileRef = 03AA2E05069B5A910006A563 /* Hijack-iT.icns */; };
+		032C1A0909C46E8300093B59 /* ai-logo-app.png in Resources */ = {isa = PBXBuildFile; fileRef = 032C6548069C66D7005F3B96 /* ai-logo-app.png */; };
+		032C1A0A09C46E8300093B59 /* com.actionable_intelligence.Hijack_iT.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03A1838B069FCA480009A080 /* com.actionable_intelligence.Hijack_iT.plist */; };
+		032C1A0B09C46E8300093B59 /* Master Image (Icon Size).png in Resources */ = {isa = PBXBuildFile; fileRef = 03D5FC5706A8F4C70003686E /* Master Image (Icon Size).png */; };
+		032C1A0C09C46E8300093B59 /* HI_README.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 03E52AD006AC798300D5EDD7 /* HI_README.pdf */; };
+		032C1A0D09C46E8300093B59 /* buy-now.png in Resources */ = {isa = PBXBuildFile; fileRef = 03499C5309B35EDC004E0FA9 /* buy-now.png */; };
+		032C1A0E09C46E8300093B59 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 033E107809B703820033ED71 /* Info.plist */; };
+		032C1A0F09C46E8300093B59 /* AppleScriptKit.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 033E10A809B7087F0033ED71 /* AppleScriptKit.sdef */; };
+		032C1A1109C46E8300093B59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		032C1A1309C46E8300093B59 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		032C1A1409C46E8300093B59 /* AppleScriptKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		032C1A1B09C46E8300093B59 /* Hijack iT!.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Hijack iT!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		032C6548069C66D7005F3B96 /* ai-logo-app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ai-logo-app.png"; sourceTree = "<group>"; };
+		033E107809B703820033ED71 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		033E10A809B7087F0033ED71 /* AppleScriptKit.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.sdef; name = AppleScriptKit.sdef; path = /System/Library/Frameworks/AppleScriptKit.framework/Versions/A/Resources/AppleScriptKit.sdef; sourceTree = "<absolute>"; };
+		03499C5309B35EDC004E0FA9 /* buy-now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy-now.png"; sourceTree = "<group>"; };
+		03A1838B069FCA480009A080 /* com.actionable_intelligence.Hijack_iT.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = com.actionable_intelligence.Hijack_iT.plist; sourceTree = "<group>"; };
+		03AA2E05069B5A910006A563 /* Hijack-iT.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Hijack-iT.icns"; sourceTree = "<group>"; };
+		03C54B3D09C3C06700180151 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C54B3F09C3C06700180151 /* List & Record Tools */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "List & Record Tools"; sourceTree = "<group>"; };
+		03C54B4109C3C06700180151 /* List & Record Tools.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; path = "List & Record Tools.rsrc"; sourceTree = "<group>"; };
+		03C54B4709C3C07200180151 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C54B4909C3C07200180151 /* Property List Tools */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "Property List Tools"; sourceTree = "<group>"; };
+		03C54B4B09C3C07200180151 /* Property List Tools.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; path = "Property List Tools.rsrc"; sourceTree = "<group>"; };
+		03D5FC5706A8F4C70003686E /* Master Image (Icon Size).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Master Image (Icon Size).png"; sourceTree = "<group>"; };
+		03E52AD006AC798300D5EDD7 /* HI_README.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HI_README.pdf; sourceTree = "<group>"; };
+		03F7DB0606E63D7E009ADDDB /* Extra Suites.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = "Extra Suites.app"; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptKit.framework; path = /System/Library/Frameworks/AppleScriptKit.framework; sourceTree = "<absolute>"; };
+		DA206CF3015C4E8B03C91932 /* Hijack iT.applescript */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.applescript; path = "Hijack iT.applescript"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032C1A1209C46E8300093B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032C1A1309C46E8300093B59 /* Cocoa.framework in Frameworks */,
+				032C1A1409C46E8300093B59 /* AppleScriptKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C24232069A3AEA0003151E /* Scripting Additions */ = {
+			isa = PBXGroup;
+			children = (
+				03C54B3B09C3C06700180151 /* List & Record Tools.osax */,
+				03C54B4509C3C07200180151 /* Property List Tools.osax */,
+				03F7DB0606E63D7E009ADDDB /* Extra Suites.app */,
+			);
+			name = "Scripting Additions";
+			sourceTree = "<group>";
+		};
+		03C54B3B09C3C06700180151 /* List & Record Tools.osax */ = {
+			isa = PBXGroup;
+			children = (
+				03C54B3C09C3C06700180151 /* Contents */,
+			);
+			path = "List & Record Tools.osax";
+			sourceTree = "<group>";
+		};
+		03C54B3C09C3C06700180151 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				03C54B3D09C3C06700180151 /* Info.plist */,
+				03C54B3E09C3C06700180151 /* MacOS */,
+				03C54B4009C3C06700180151 /* Resources */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		03C54B3E09C3C06700180151 /* MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				03C54B3F09C3C06700180151 /* List & Record Tools */,
+			);
+			path = MacOS;
+			sourceTree = "<group>";
+		};
+		03C54B4009C3C06700180151 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03C54B4109C3C06700180151 /* List & Record Tools.rsrc */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		03C54B4509C3C07200180151 /* Property List Tools.osax */ = {
+			isa = PBXGroup;
+			children = (
+				03C54B4609C3C07200180151 /* Contents */,
+			);
+			path = "Property List Tools.osax";
+			sourceTree = "<group>";
+		};
+		03C54B4609C3C07200180151 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				03C54B4709C3C07200180151 /* Info.plist */,
+				03C54B4809C3C07200180151 /* MacOS */,
+				03C54B4A09C3C07200180151 /* Resources */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		03C54B4809C3C07200180151 /* MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				03C54B4909C3C07200180151 /* Property List Tools */,
+			);
+			path = MacOS;
+			sourceTree = "<group>";
+		};
+		03C54B4A09C3C07200180151 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03C54B4B09C3C07200180151 /* Property List Tools.rsrc */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				DA206CF3015C4E8B03C91932 /* Hijack iT.applescript */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032C1A1B09C46E8300093B59 /* Hijack iT!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Scripts */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				033E107809B703820033ED71 /* Info.plist */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				033E10A809B7087F0033ED71 /* AppleScriptKit.sdef */,
+				03E52AD006AC798300D5EDD7 /* HI_README.pdf */,
+				03A1838B069FCA480009A080 /* com.actionable_intelligence.Hijack_iT.plist */,
+				032C6548069C66D7005F3B96 /* ai-logo-app.png */,
+				03D5FC5706A8F4C70003686E /* Master Image (Icon Size).png */,
+				03AA2E05069B5A910006A563 /* Hijack-iT.icns */,
+				03C24232069A3AEA0003151E /* Scripting Additions */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				03499C5309B35EDC004E0FA9 /* buy-now.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		032C1A0209C46E8300093B59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		032C1A0109C46E8300093B59 /* Hijack iT! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032C1A1609C46E8300093B59 /* Build configuration list for PBXNativeTarget "Hijack iT!" */;
+			buildPhases = (
+				032C1A0209C46E8300093B59 /* Headers */,
+				032C1A0309C46E8300093B59 /* AppleScript */,
+				032C1A0509C46E8300093B59 /* Resources */,
+				032C1A1009C46E8300093B59 /* Sources */,
+				032C1A1209C46E8300093B59 /* Frameworks */,
+				032C1A1509C46E8300093B59 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			comments = "Tool for automating the recording of any iTunes playlist.";
+			dependencies = (
+			);
+			name = "Hijack iT!";
+			productInstallPath = /Applications/Multimedia;
+			productName = Application;
+			productReference = 032C1A1B09C46E8300093B59 /* Hijack iT!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 037957EB085A9853002EE036 /* Build configuration list for PBXProject "Hijack iTunes" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Application */;
+			projectDirPath = "";
+			targets = (
+				032C1A0109C46E8300093B59 /* Hijack iT! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032C1A0509C46E8300093B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032C1A0609C46E8300093B59 /* MainMenu.nib in Resources */,
+				032C1A0709C46E8300093B59 /* InfoPlist.strings in Resources */,
+				032C1A0809C46E8300093B59 /* Hijack-iT.icns in Resources */,
+				032C1A0909C46E8300093B59 /* ai-logo-app.png in Resources */,
+				032C1A0A09C46E8300093B59 /* com.actionable_intelligence.Hijack_iT.plist in Resources */,
+				032C1A0B09C46E8300093B59 /* Master Image (Icon Size).png in Resources */,
+				032C1A0C09C46E8300093B59 /* HI_README.pdf in Resources */,
+				032C1A0D09C46E8300093B59 /* buy-now.png in Resources */,
+				032C1A0E09C46E8300093B59 /* Info.plist in Resources */,
+				032C1A0F09C46E8300093B59 /* AppleScriptKit.sdef in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		032C1A1509C46E8300093B59 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Lines are double-quoted to support spaces in paths and some other things not handled by unix shells without quoting.\nRES=\"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Contents/Resources\"\nmkdir \"${RES}/Scripting Additions\"\n# osaxen are directories, so this needs to be recursive (warning this is a powerful command. verify the directory is correct!)\n#rm -rf \"${RES}/\"*.osax   # You only need this if you added the osaxen to your target - shame....\n#Again recursive to handle the directory nature of .osax files.\n/Developer/Tools/CpMac -r \"${SRCROOT}\"/*.osax \"${RES}/Scripting Additions\"\n/Developer/Tools/CpMac -r \"${SRCROOT}/Extra Suites.app\" \"${RES}/Scripting Additions\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032C1A1009C46E8300093B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032C1A1109C46E8300093B59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		032C1A1709C46E8300093B59 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Applications/Multimedia;
+				JAVA_ARCHIVE_COMPRESSION = YES;
+				JAVA_COMPILER_DEBUGGING_SYMBOLS = NO;
+				JAVA_COMPILER_DEPRECATED_WARNINGS = YES;
+				JAVA_COMPILER_SOURCE_VERSION = 1.5;
+				JAVA_COMPILER_TARGET_VM_VERSION = 1.5;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Hijack iT!";
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		032C1A1809C46E8300093B59 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Applications/Multimedia;
+				JAVA_ARCHIVE_COMPRESSION = YES;
+				JAVA_COMPILER_DEBUGGING_SYMBOLS = NO;
+				JAVA_COMPILER_DEPRECATED_WARNINGS = YES;
+				JAVA_COMPILER_SOURCE_VERSION = 1.5;
+				JAVA_COMPILER_TARGET_VM_VERSION = 1.5;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_OSAFLAGS = "-x";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Hijack iT!";
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		032C1A1909C46E8300093B59 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Applications/Multimedia;
+				JAVA_ARCHIVE_COMPRESSION = YES;
+				JAVA_COMPILER_DEBUGGING_SYMBOLS = NO;
+				JAVA_COMPILER_DEPRECATED_WARNINGS = YES;
+				JAVA_COMPILER_SOURCE_VERSION = 1.5;
+				JAVA_COMPILER_TARGET_VM_VERSION = 1.5;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Hijack iT!";
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		037957EC085A9853002EE036 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		037957ED085A9853002EE036 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Deployment;
+		};
+		037957EE085A9853002EE036 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032C1A1609C46E8300093B59 /* Build configuration list for PBXNativeTarget "Hijack iT!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032C1A1709C46E8300093B59 /* Development */,
+				032C1A1809C46E8300093B59 /* Deployment */,
+				032C1A1909C46E8300093B59 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		037957EB085A9853002EE036 /* Build configuration list for PBXProject "Hijack iTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037957EC085A9853002EE036 /* Development */,
+				037957ED085A9853002EE036 /* Deployment */,
+				037957EE085A9853002EE036 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

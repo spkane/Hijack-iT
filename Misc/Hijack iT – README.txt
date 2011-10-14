@@ -1,0 +1,124 @@
+Hijack iT! 2.7
+
+System Requirements:
+*	Mac OS X (tested with 10.5.2 Intel)
+*	Apple iTunes (tested with 7.6.2)
+*	Registered copy of Rogue Amoeba's Audio Hijack Pro (tested with 2.8.1)
+*	Growl (tested with 1.1.2)
+
+Where to get the prerequisite software:
+
+1) Mac OS X: http://www.apple.com/macosx/
+2) iTunes: http://www.apple.com/itunes/
+3) Audio Hijack Pro: http://www.rogueamoeba.com/audiohijackpro/
+4) Growl: http://growl.info/
+
+Why use this software:
+
+Hijack iT! is a tool that automates the interaction between iTunes and Audio Hijack Pro to create a simple tool for converting and manipulating all the media in any iTunes playlist. 
+
+Using Audio Hijack Pro on it's own you cannot easily convert or apply filters to multiple tracks from iTunes in an automated fashion. This tools allows you to setup an Audio Hijack Pro session that not only can be used to convert media, but can also be used to apply sound effects/filters to the music, break long audio files up into conforming sizes, etc. 
+
+When you launch the tool and select a playlist each track in that playlist will be captured using the Audio Hijack Pro session you have setup. Each track will be named properly and saved in the location defined in the session. 
+
+There are quite a few formats supported by iTunes that many digital players don't support and some that are simply non-standard and/or proprietary. Hijack iTunes makes converting these formats to standard, non-proprietary formats simple and automatic. It doesn't allow you to do anything you couldn't already do manually with iTunes and Audio Hijack Pro. It simply automates the process.
+
+Using this software:
+
+Using this software is very simple. Double-click on the application icon to launch Hijack iT!. This will also launch the other required applications as needed. The main application window will appear.
+
+If you have registered Hijack iTunes then you should select "Help - Register Hijack iT!" or type "option-R" to register the software. The registration window will then appear.
+
+Type in your Registration Name and License Key EXACTLY as they appear in the ai-lk-generator4hi application. You should see the text "Unregistered" change to "Registered". At this point you can press the "done" button to close the window. If you have not registered your recording will be limited to 30 seconds each. Run the ai-lk-generator4hi application to get a valid key. On the main window, the "Enable Keep Awake" feature will keep the system awake (disable screensavers and energy saving) by moving the mouse one pixel every few seconds. This is necessary when recording files that last longer then the screensaver or energy saver activation times.
+
+Finally, Select an iTunes playlist that you want to convert and then select the Audio Hijack Pro session to use for the conversion. When you are ready click the "Hijack iT!" button to start. iTunes will start playing the playlist one song at a time and Audio Hijack Pro will start recording each song based on how the session is defined. 
+
+To cancel the session, you can click the "Cancel" button. Note that canceling a recording can take up to 10 seconds to initiate.
+
+During recording iTunes and Audio Hijack Pro will be launched. When the session is complete Hijack iT! will open up a Finder window containing the new audio files.
+
+Growl Support:
+
+Support for Growl (See: http://growl.info/ ) has been added to Hijack iT! The first time you run Hijack iT! after installing Growl, the tool will be registered with Growl and will display a notification window similar to the one below at the start of each track it is recording. You can disable this functionality via the Growl preferences pane.
+
+Unregistered Version Limitations:
+
+The unregistered version will only record the first 30 seconds of every track in the playlist. 
+
+The registered version will play tracks of any length, including audio books or live recordings that last many hours. You can easily create a license key using the ai-lk-generator4hi application.
+
+Licensing:
+
+Hijack iT by Sean P. Kane is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+https://github.com/spkane/Hijack-iT
+
+Thank you for your patronage!
+
+Change Log:
+
+Version 2.7
+-	Universal Binary (PPC / Intel)
+-	Growl support improved (and now required)
+-	Added option to minimize AHP and iTunes while running
+-	Added option to quit AHP and iTunes when exiting
+-	Added ability to refresh iTunes playlists and Audio Hijack Pro sessions after making adding or removing items from those lists.
+
+Version 2.6
+-	Growl support added (See: http://growl.info/ )
+-	Name changed from Hijack iTunes to Hijack iT!
+
+Version 2.5.5
+-	Podcasts are now supported
+-	All tracks are rewound before recording to remove issues with bookmark-able audio files not getting completely recorded.
+
+Version 2.5.1
+-	Year tags now properly transferred from iTunes to Audio Hijack Pro.
+
+Version 2.5
+-	Support for the new Applescript-able Audio Hijack Pro.
+-	Application almost completely rewritten
+-	All GUI Scripting removed and replaced with standard Applescript, which should make everything much more reliable.
+-	Removed all support for Audio Hijack Pro 1.x, 2.0, 2.1, 2.1.1
+
+Version 2.1
+-	Changed the way the presets are selected to workaround an issue some users were experiencing that produced the error "Could not open quick record. (105)"
+
+Version 2.0
+-	Initial Audio Hijack Pro 2.0 support tested and finalized.
+-	Removed "disable screen saver" and disable energy saver" options in favor or a much improved "keep awake" feature. The new version of "keep awake" makes very subtle mouse movements, every few seconds to keep the screensaver and energy saver from initiating.
+
+Version 1.9 (2.0 Beta 1)
+-	Initial Audio Hijack Pro 2.0 support added
+-	Registration problem fixed. Please report any continued issues with registering.
+
+Version 1.3
+-	Replaced Jiggler with built-in "Keep Awake" method
+-	Added Cancel button to allow users to easily abort recording.
+-	Added "Open Music Folder" button to easily open a finder window to your music.
+-	Now includes support for Music Folders that include spaces and ~ characters in the same path.
+-	Plus more behind the scenes changesÉ
+
+Version 1.2
+-	The screen saver and energy saver can be disabled for recording long playlists
+-	Jiggler from Stick Software can be used to allow an easier method to keep the computer awake.
+-	License Keys have been added to the application.
+-	There is no longer a separate demo version.
+-	Support for per-user preferences
+-	Plus more behind the scenes changesÉ
+
+Version 1.01
+-	Greatly improved error reporting
+-	Improved method used to give Audio Hijack Pro the track name
+
+Version 1.0
+-	Original Public Release
+
+"Hijack iT!"
+
+Hijack iT by Sean P. Kane is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+https://github.com/spkane/Hijack-iT
+
+-	iTunes is a registered trademark of Apple Computer, Inc.
+-	Audio Hijack Pro is a registered trademark of Rogue Amoeba
+-	Property  List Tools and List & Record Tools are COPYRIGHT © 2004 LATE NIGHT SOFTWARE LTD. & MARK ALLDRITT.
+-	This application uses code copylefted by: Thomas Kuehner, Koeln, Germany, 2003
